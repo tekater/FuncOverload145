@@ -49,12 +49,8 @@ T1 Max(T1 arr[length][length][length]) {
 template <class T1>
 T1 Max1(T1 a, T1 b) {
 	int max = 0;
-	if (a > b) {
-		max = a;
-	}
-	if (b > a) {
-		max = b;
-	}
+	if (a > b) max = a;
+	if (b > a) max = b;
 	return max;
 }
 template <class T1>
